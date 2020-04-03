@@ -1,38 +1,83 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Oxanium&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: radial-gradient(circle, #e298cf, #c17a8c, #90635c, #5e4c41, #343331);
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Oxanium", cursive;
+  margin-left: 35px;
+  max-width: 200px;
+  font-size: 48px;
+  font-weight: 900;
+  color:  #c17a8c;
+  text-shadow: 1px 1px 1px rgb(39, 37, 37), 3px 3px 8px rgb(164, 132, 170);
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+h2 {
+  color: rgb(232, 225, 238);
+  max-width: 50px;
+  padding: 5px;
+  margin: 60px 105px;
+  border-radius: 5px;
+  border: 2px solid #c17a8c;
+  font-size: 36px;
+  text-shadow: 1px 1px 1px rgb(80, 77, 77),
+                     3px 3px 8px rgb(164, 132, 170);
+}
+
+.container{
+  margin-top: 6%;
+  margin-left: 40%;
+  padding: 60px;
+  padding-bottom: 40px;
+  background-color: #5e4c41;
+  max-width: 668px;
+  border: 3px solid white;
+  border-radius: 5px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: inline-block;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.incbtn {
+  font-family: "Oxanium", cursive;
+  background-color: #c17a8c;
+  max-width: fit-content;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+  margin-right: 20px;
   color: white;
+  text-shadow: 1px 1px 1px rgb(66, 66, 66), 3px 3px 8px rgb(164, 132, 170);
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.decbtn {
+  font-family: "Oxanium", cursive;
+  background-color: #c17a8c;
+  max-width: fit-content;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(66, 66, 66), 3px 3px 8px rgb(164, 132, 170);
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid white;
 }
